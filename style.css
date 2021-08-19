@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   background-color: darkgrey;
   max-width: min-content;
+  margin: auto;
 }
 
 header {
@@ -49,6 +50,7 @@ section:nth-child(2) img {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  margin: auto;
 }
 
 section:nth-child(3) {
@@ -56,6 +58,10 @@ section:nth-child(3) {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/* section:nth-child(3) img {
+  margin: auto;
+} */
 
 article {
   display: flex;
